@@ -258,8 +258,8 @@ dd {
 table.pri {
     font-size: 20px;
     width: 70%;
-    margin: 0 auto;
     text-align: center;
+    margin: 0 auto;
     
 }
 table.pri th {
@@ -273,8 +273,8 @@ table.pri td {
 }
 table.seg {
     font-size: 20px;
-    width: 70%;
-    margin: 0 auto;
+    width: 50%;
+    text-align: center;
     
 }
 table.seg th {
@@ -287,8 +287,9 @@ table.seg td {
 }
 table.ter {
     font-size: 20px;
-    width: 70%;
-    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+   
 }
 table.ter td {
     background-color: #bbff00;
