@@ -258,6 +258,39 @@ dd {
 .ancho {
     width: 30%;
 }
+table.pri {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+table.pri th {
+    background-color: #00ffff;
+}
+table.pri td {
+    background-color: #bbff00;
+}
+table.seg {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+table.seg th {
+    background-color: #00ffff;
+}
+table.seg td {
+    background-color: #bbff00;
+}
+table.ter {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+table.ter td {
+    background-color: #bbff00;
+}
 table.horario {
     font-size: 20px;
     width: 70%;
@@ -285,10 +318,10 @@ table.horario th.grupo {
     background-color: #f7cac9;
 }
 .prog {
-    background-color: #b37b7a;
+    background-color: #da9897;
 }
 .sisi {
-    background-color: #a5da9c;
+    background-color: #1d4e15;
 }
 .ing {
     background-color: #77b3eb;
