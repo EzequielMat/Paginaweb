@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" height="70"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="enlaces">
+                    <h1 class="text-center">ENLACES</h1>
+                    <p>Los enlaces, link, hipervinculos o como querais llamarlos se hacen con a</p>
+                    <p class="text-subr">Tipos de enlaces:</p>
+                    <h3>Enlace a una pagina nuestra</h3>
+                    <a href="index.html">ir a home</a>
+                    <h3>Enlace a una pagina de internet</h3>
+                    <a href="https://www.google.com">ir a google</a>
+                    <h3>Enlace a una pagina en una pestaña nueva</h3>
+                    <a href="index.html" target="_blank">ir a home en otra pestaña</a>
+                    <h3>Enlace a un programa javascript</h3>
+                    <a href="javascript:alert('Hola mundo')">pulsa...</a>
+                    <h3>Enlace a un email</h3>
+                    <a href="mailto:alumno.231388@ies-azarquiel.es">Correo</a>
+                    <h3>Enlace a una imagen</h3>
+                    <p class="text-center"><a href="https://www.youtube.com/" target="_blank"><img src="img/logoyt.png"
+                                alt="logoyt" width="10%"></a>
+                    </p>
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Ezequiel Matilla Tamurejo</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" height="70"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="parrafos">
+                    <p>
+                    <h1 class="text-center">PARRAFOS</h1>
+                    </p>
+                    Voy a hacer dos párrafos para ello utilizaremos la etiquieta "p"
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat facere optio recusandae atque.
+                        Magni, repudiandae quidem ullam quam saepe fugit non reiciendis
+                        dolorum vero suscipit maxime
+                        quod rem expedita qui!</p>
+                    <p>Como vemos en cada linea hay una line en blanco para hacer que no haya esa linea ponemos la
+                        etiqueta br.<br>estoy debajo sin linea en blanco</p>
+
+                    <p>Enbezados del h1 al h6</p>
+                    <h1>Encabezado h1</h1>
+                    <h2>Encabezado h2</h2>
+                    <h3>Encabezado h3</h3>
+                    <h4>Encabezado h4</h4>
+                    <h5>Encabezado h5</h5>
+                    <h6>Encabezado h6</h6>
+                    <p>Para texto en negrita usamos la etiqueta strong. <strong>Estoy en negrita</strong></p>
+                    <p>Para texto en cursiva usamos la etiqueta em. <em>Estoy en cursiva</em></p>
+                    <p>Poner indices y super indices utilizamos las etiquetas sup y sub</p>
+                    <p>x <sup>2<sup>2</sup></sup></p>
+                    <p>x <sub>2</sub></p>
+                    Voy a cambiar el color del texto a color blanco para hacerlo utilizare la
+                    etiqueta span
+                    <p>Lorem ipsum dolor, <span class="text-blanco">sit amet consectetur adipisicing elit.
+                            Necessitatibus
+                            aspernatur, deleniti ut
+                            ipsam itaque cumque recusandae</span> unde blanditiis, laboriosam nemo repellat. Itaque
+                        mollitia
+                        reprehenderit est consequuntur dignissimos, aliquam recusandae harum.</p>
+                    <div class="rosa">Div 1</div>
+                    <div class="verde">Div 2</div>
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Ezequiel Matilla Tamurejo</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
