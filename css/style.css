@@ -101,10 +101,6 @@ body {
     padding: 15px;
 }
 
-./shadow {
-    box-shadow: 0 0 20px gainsboro;
-    border-radius: 10px;
-}
 nav ul{
     padding: 0;
     margin: 0;
