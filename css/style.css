@@ -275,7 +275,7 @@ table.seg {
     font-size: 20px;
     width: 70%;
     margin: 0 auto;
-    text-align: center;
+    
 }
 table.seg th {
     background-color: #00ffff;
@@ -289,7 +289,6 @@ table.ter {
     font-size: 20px;
     width: 70%;
     margin: 0 auto;
-    text-align: center;
 }
 table.ter td {
     background-color: #bbff00;
